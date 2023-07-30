@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.welcome{
+    font-size: 25px;
+    font-family: cursive;
+}
+.input-container{
+    margin-left: 40px;;
+    margin-top: 50px;;
+}
+input{
+    border: solid;
+    padding: 12px 7px 12px 7px;
+    border-radius: 50px;
+    transition: padding 0.3s;
+    border-color: blue;
+}
+input:hover{
+    padding: 8px 22px 8px 22px;
+}
+.pw-buttons{
+    margin-top: 20px;
+}
+.calc-btn{
+    margin-right: 47px;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px 14px 10px 14px;
+}
+.reset-btn{
+    margin-right: 47px;
+    border: none;
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px 14px 10px 14px;
+}
